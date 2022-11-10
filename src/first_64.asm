@@ -2,8 +2,8 @@ section .data
     format: db "%d", 0xa, 0
 
 section .text
-    global main
     extern printf
+    global main
 
 main:
     mov rax, 0

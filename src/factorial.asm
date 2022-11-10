@@ -38,6 +38,6 @@ main:
     push msg
     call printf
 
-    add esp, 8
+    add esp, 16
 
     ret
